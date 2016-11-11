@@ -15,7 +15,9 @@ var port = process.env.PORT;
 //var port = process.env.PORT || 80;
 
 app.get('/', function (req, res) {
-    res.send("Hello");
+    res.json({
+        message : "hello"
+    });
 });
 
 app.listen(port);
