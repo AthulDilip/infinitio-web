@@ -11,13 +11,11 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var port = process.env.PORT;
+var port = process.env.PORT || 3040;
 //var port = process.env.PORT || 80;
 
 app.get('/', function (req, res) {
-    res.json({
-        message : "hello"
-    });
+    res.send('Hello World!')
 });
 
 app.listen(port);
