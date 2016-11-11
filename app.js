@@ -14,9 +14,8 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 3040;
 //var port = process.env.PORT || 80;
 
-app.get('/', function (req, res) {
-    res.send('Moyanth')
-});
+var restRouter = require('./v1/v1');
+app.use('/v1', restRouter);
 
 app.listen(port);
 console.log('Server started on port : ' + port);
