@@ -2,7 +2,7 @@
  * Created by ss on 28/5/16.
  */
 // call the packages we need
-
+//https://$infinitio:uAbMozwnzs9fyGQpRciBetuaTrCEka93455KMmfdyrLqkR5Yk4ZM4RPonBm9@infinitio.scm.azurewebsites.net/deploy
 var express = require('express');
 var bodyParser = require('body-parser');
 
@@ -15,7 +15,7 @@ var port = process.env.PORT || 3040;
 //var port = process.env.PORT || 80;
 
 app.get('/', function (req, res) {
-    res.json(req.get('name'));
+    res.send("Hello");
 });
 
 app.listen(port);
