@@ -1,0 +1,81 @@
+{
+    "status" : true,
+    "chat": {
+        "chat_id": "1",
+        "user_one": "17",
+        "user_two": "2",
+        "purpose": "Zemoser Dispute",
+        "created_at": "2016-10-07 07:17:00",
+        "active": "1",
+        "id": "2",
+        "firstname": "Abdul Muhaymin",
+        "lastname": "Pary",
+        "gender": "1",
+        "email": "mampary@gmail.com",
+        "password": "536d9925754ce195ce8f24949b61a91a",
+        "address1": "Barakath",
+        "city": "Hajiyarpalli, Down Hill, Malappuram, Kerala, India",
+        "lat": "11.055217",
+        "lon": "76.058769",
+        "country": "1",
+        "zip": "676519",
+        "phone": "9567975798",
+        "dob": "1995-03-13",
+        "profile_picture": "power_tools_2.jpg",
+        "verified": "0",
+        "zemoser": "1",
+        "email_verification_code": "",
+        "otp": "",
+        "requested_time": "0000-00-00 00:00:00",
+        "last_login_time": "0000-00-00 00:00:00",
+        "verification_status": "1",
+        "personal_completed": "1",
+        "registered_using": "email",
+        "google_user_id": "",
+        "google_profile_pic": "",
+        "fb_user_id": ""
+    },
+    "messages": [
+        {
+            "message_id": "1",
+            "chat_id": "1",
+            "user_id": "17",
+            "content": "Content",
+            "date": "2011, 04, 24, 12, 30, 30, 30",
+            "completed": "0"
+        },
+        {
+            "message_id": "2",
+            "chat_id": "1",
+            "user_id": "0",
+            "content": "Hi",
+            "date": "2011, 04, 24, 12, 30, 30, 30",
+            "completed": "1"
+        },
+        {
+            "message_id": "2",
+            "chat_id": "1",
+            "user_id": "17",
+            "content": "Hi",
+            "date": "2011, 04, 24, 12, 30, 30, 30",
+            "completed": "1"
+        },
+        {
+            "message_id": "2",
+            "chat_id": "1",
+            "user_id": "0",
+            "content": "Hi",
+            "date": "2015, 04, 24, 12, 30, 30, 30",
+            "completed": "1"
+        },
+        {
+            "message_id": "2",
+            "chat_id": "1",
+            "user_id": "17",
+            "content": "Hi",
+            "date": "2016, 10, 08, 12, 50, 30, 00",
+            "completed": "1"
+        }
+    ],
+    "update": "2016-10-08 02:04:16"
+}
