@@ -2,94 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3633218-eff9-40bc-a982-203e7bd47168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/REST/UserModel.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Cart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Disputes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Home.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Invoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Mobile/Users.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/NazCont.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Notifications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Orders.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Pages.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Payment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Products.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Register.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Reviews.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Users.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Zemoser/Dashboard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Zemoser/Inventory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Zemoser/Orders.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Zemoser/shopDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Attributes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/CRMDispute.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Category.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Coupons.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/EmailTemplates.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/FeaturedCategory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/FeaturedProducts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Filters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/PageManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/ProductRequests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Products.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Safety.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/SmsTemplates.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/TaxClasses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/Taxes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/VerificationRequests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/gdf79/ZemoserRequests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/Chat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/InventoryM.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/Misc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/Orders.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/Product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/Zemoser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/v1/ZemoserOrders.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/AdminModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/AttributeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/CartModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/CategoryModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Chats.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/CommissionModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/CookieModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/CouponModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/DisputeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/EmailModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/FilterModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/InventoryModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/InvoiceModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/LanguageModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/NotificationModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/OrdersModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/PageModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/PaymentModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/ProductModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/REST/InventoryRest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/REST/MiscRest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/REST/OrderRest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/REST/ProductRest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/REST/ZOrderRest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/REST/ZemoserRest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/SafetyModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/SmsModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/TaxClassModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/TaxModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/UsersModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/VerificationRequestsModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/VisitorModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/ZemoserRequestsModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/v1/Users.php" afterPath="$PROJECT_DIR$/application/controllers/v1/Users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" afterPath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" afterPath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/application/libraries/google-api/CONTRIBUTING.md" />
@@ -163,7 +76,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/tests/examples/simpleFileUploadTest.php" afterPath="$PROJECT_DIR$/application/libraries/google-api/tests/examples/simpleFileUploadTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/tests/examples/simpleQueryTest.php" afterPath="$PROJECT_DIR$/application/libraries/google-api/tests/examples/simpleQueryTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/tests/examples/urlShortenerTest.php" afterPath="$PROJECT_DIR$/application/libraries/google-api/tests/examples/urlShortenerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/sql/sabeer.sql" afterPath="$PROJECT_DIR$/application/sql/sabeer.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/REST/UserModel.php" afterPath="$PROJECT_DIR$/application/models/REST/UserModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_guide/_static/jquery.js" afterPath="$PROJECT_DIR$/user_guide/_static/jquery.js" />
     </list>
     <ignored path="untitled.iws" />
@@ -201,9 +114,11 @@
       <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="657">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <marker date="1478929428445" expanded="true" signature="1104:1163" ph="INSERT INTO users... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -606,7 +521,7 @@
       <workItem from="1478915390129" duration="8150000" />
       <workItem from="1478925761008" duration="464000" />
       <workItem from="1478926235753" duration="480000" />
-      <workItem from="1478927025491" duration="2246000" />
+      <workItem from="1478927025491" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="Check">
       <created>1478875987725</created>
@@ -699,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478927478485</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new update">
+      <created>1478929282928</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1478929282928</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26380000" />
+    <option name="totallyTimeSpent" value="26548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1875" height="1056" extended-state="6" />
@@ -753,7 +675,8 @@
     <MESSAGE value="Added fb login" />
     <MESSAGE value="get patch" />
     <MESSAGE value="php move" />
-    <option name="LAST_COMMIT_MESSAGE" value="php move" />
+    <MESSAGE value="new update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,9 +877,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="657">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1478929428445" expanded="true" signature="1104:1163" ph="INSERT INTO users... " />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -44,30 +44,18 @@ class UserModel extends CI_Model
 
 
         $this->load->database();
-        $sql = "INSERT INTO ";
-        $query = $this->db->query($sql, array($uid));
-        if($query->num_rows() != 1) {
-            throw new PixelRequestException('1L300| User is not signed up.');
-        }
-
-        //user exists
-        $user = $query->result()[0];
-
-        //create token
-        $token = $this->APIAuth->createToken($user);
+        $sql = "INSERT INTO users(id, name, fb_user_id) VALUES (NULL, ?, ?)";
+        $query = $this->db->query($sql, array(
+            $name,
+            $fb_id
+        ));
 
         $data->ZemoseStatus->Status = 'Login Successful.';
         $data->ZemoseStatus->StatusCode = '1L100';
 
         $data->data = (object) array(
-            'zemoseAccessToken' => $token,
-            'email' => $user->email,
-            'phone' => $user->phone,
-            'profilePicture' => $this->getProfilePic($user),
-            'firstName' => $user->firstname,
-            'lastName' => $user->lastname,
-            'userID' => $user->id,
-            'isZemoser' => $this->isZemoser($user)
+            'id' => '',
+            'name' => ''
         );
 
         return $data;
