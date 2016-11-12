@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3633218-eff9-40bc-a982-203e7bd47168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" afterPath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" afterPath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" />
@@ -156,8 +156,8 @@
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -290,6 +290,7 @@
         <option value="$PROJECT_DIR$/application/sql/sabeer.sql" />
         <option value="$PROJECT_DIR$/application/controllers/v1/Users.php" />
         <option value="$PROJECT_DIR$/application/models/REST/UserModel.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -591,7 +592,7 @@
       <workItem from="1478915390129" duration="8150000" />
       <workItem from="1478925761008" duration="464000" />
       <workItem from="1478926235753" duration="480000" />
-      <workItem from="1478927025491" duration="3017000" />
+      <workItem from="1478927025491" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="Check">
       <created>1478875987725</created>
@@ -712,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478929910648</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="initial check">
+      <created>1478930050084</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1478930050084</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27151000" />
+    <option name="totallyTimeSpent" value="27239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1875" height="1056" extended-state="6" />
@@ -987,8 +995,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>
