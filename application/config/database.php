@@ -74,18 +74,15 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost;dbname=inf',
+	'dsn'	=> 'mysql:host=localhost;dbname=zemose_infi',
 	'hostname' => 'localhost',
 	'username' => 'root',
-<<<<<<< HEAD
-	'password' => 'root',
-	'database' => 'inf',
-=======
+	//'password' => 'root',
+	//'database' => 'inf',
 	//'username' => 'zemose_new',
 	'password' => '',
 	//'password' => 'TrIf]+ESP7t7',
-	'database' => 'zemose_infi',
->>>>>>> refs/remotes/origin/master
+	//'database' => 'zemose_infi',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

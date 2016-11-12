@@ -76,19 +76,78 @@ class InterestModel extends CI_Model
     }
 
     //63f803a8-5fd8-5b12-9997-906dd1373e94
-    public function getLatestNews(){
+    public function getLatestNews() {
 
         $this->load->library('guzzle');
-        $endpoint = 'https://developer.manoramaonline.com/api/editions/en/sections/multimedia/articles';
+
+        $endpoint = 'https://developer.manoramaonline.com/api/editions/en/sections/news_science-&-tech/articles';
+        $headers = ['Authorization' => '63f803a8-5fd8-5b12-9997-906dd1373e94'];
 
         $client = new \GuzzleHttp\Client();
         $res = $client->request(
             'GET',
-            $endpoint
+            $endpoint,
+            ['headers' => $headers]
         );
+
+        $articles = array();
+        $articles[0] = json_decode($res->getBody()->getContents())->articleSummary[0];
+        $articles[1] = json_decode($res->getBody()->getContents())->articleSummary[1];
+
+        $data = (object)array(
+            'IStatus' => (object) array(
+                'StatusCode' => '1E100',
+                'Status' => 'Got score successfully'
+            ),
+            'data' => (object) array(
+                'articles' => $articles
+            )
+        );
+
+        return $data;
     }
 
     public function getInterestedNews(){
+        $this->load->library('guzzle');
+
+        $endpoint = 'https://developer.manoramaonline.com/api/editions/en/sections/business_news/articles';
+        $headers = ['Authorization' => '63f803a8-5fd8-5b12-9997-906dd1373e94'];
+
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request(
+            'GET',
+            $endpoint,
+            ['headers' => $headers]
+        );
+        $article1 = json_decode($res->getBody()->getContents())->articleSummary[0];
+
+        $endpoint = 'https://developer.manoramaonline.com/api/editions/en/sections/news_science-&-tech/articles';
+
+        $headers = ['Authorization' => '63f803a8-5fd8-5b12-9997-906dd1373e94'];
+
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request(
+            'GET',
+            $endpoint,
+            ['headers' => $headers]
+        );
+
+        $article2 = json_decode($res->getBody()->getContents())->articleSummary[1];
+        $articles = array();
+        $articles[0] = $article1;
+        $articles[1] = $article2;
+
+        $data = (object)array(
+            'IStatus' => (object) array(
+                'StatusCode' => '1F100',
+                'Status' => 'Got score successfully'
+            ),
+            'data' => (object) array(
+                'articles' => $articles
+            )
+        );
+
+        return $data;
 
     }
 }

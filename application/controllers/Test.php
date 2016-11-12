@@ -24,7 +24,7 @@ class Test extends CI_Controller {
     }
 
     public function index(){
-        $this->InterestModel->postScore(1,4,3,1,4,3);
+        $this->InterestModel->getInterestedNews();
     }
 
 }
