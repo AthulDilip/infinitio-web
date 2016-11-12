@@ -10,6 +10,7 @@
 /**
  * Class Users
  * @property UserModel $UserModel
+ * @property Exceptions $exceptions
  */
 class Users extends CI_Controller {
     public function __construct()
@@ -17,17 +18,21 @@ class Users extends CI_Controller {
         parent::__construct();
 
         $this->load->library('Exceptions');
-        $this->load->model('REST/RESTModel');
-        $this->load->model('REST/APIAuth');
+        $this->load->model('REST/UserModel');
     }
 
     public function fblogin() {
-        $token = $this->input->post('token');
-        $data = $this->UserModel->fbLogin($token);
+        try {
+            $token = $this->input->post('token');
+            $data = $this->UserModel->fbLogin($token);
 
-        $this->load->view('rest', array(
-            'data' => $data
-        ));
+            $this->load->view('rest', array(
+                'data' => $data
+            ));
+        }
+        catch (Exception $e) {
+            $this->exceptions->handleMobileErrors($e);
+        }
     }
 
 }

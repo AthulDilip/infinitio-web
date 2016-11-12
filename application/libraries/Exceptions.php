@@ -123,7 +123,7 @@ class Exceptions {
         $m = !empty($ma[1]) ? $ma[1] : '';
 
         $data = (object)array(
-            'ZemoseStatus' => (object) array(
+            'IniStatus' => (object) array(
                 'StatusCode' => $code,
                 'Status' => $m
             ),
