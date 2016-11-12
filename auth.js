@@ -5,8 +5,8 @@ var config = require('./config');
 
 var functions = {
     keyCheck : function (req, res, next) {
-        if( req.headers.xkey == config.apiKey ) {
-            console.log("XKEY verified");
+        if( req.headers.ikey == config.apiKey ) {
+            console.log("IKEY verified");
             next();
         }
         else {
