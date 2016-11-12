@@ -24,7 +24,7 @@ class UserModel extends CI_Model
 
         //verify the token
         $this->load->library('guzzle');
-        $endpoint = 'https://graph.facebook.com/me?access_token='. $id_token ;
+        $endpoint = 'https://graph.facebook.com/me?fields=id,name&access_token='. $id_token ;
 
         $client = new \GuzzleHttp\Client();
         $res = $client->request(
@@ -50,12 +50,17 @@ class UserModel extends CI_Model
             $fb_id
         ));
 
+        $sql = "SELECT LAST_INSERT_ID() AS id";
+        $query = $this->db->query($sql, array());
+        $res = $query->result();
+        $id = $res[0] -> id;
+
         $data->ZemoseStatus->Status = 'Login Successful.';
         $data->ZemoseStatus->StatusCode = '1L100';
 
         $data->data = (object) array(
-            'id' => '',
-            'name' => ''
+            'id' => $id,
+            'name' => $name
         );
 
         return $data;

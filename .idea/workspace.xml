@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3633218-eff9-40bc-a982-203e7bd47168" name="Default" comment="">
+    <list default="true" id="f3633218-eff9-40bc-a982-203e7bd47168" name="Default" comment="new update">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/v1/Users.php" afterPath="$PROJECT_DIR$/application/controllers/v1/Users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" afterPath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" afterPath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/application/libraries/google-api/CONTRIBUTING.md" />
@@ -102,8 +103,8 @@
       <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/v1/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="e#7#86#0#PHP" expanded="true" />
               </folding>
@@ -111,13 +112,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="-179">
+              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
               <folding>
-                <marker date="1478929428445" expanded="true" signature="1104:1163" ph="INSERT INTO users... " />
+                <marker date="1478929710496" expanded="true" signature="1119:1178" ph="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -133,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
@@ -265,10 +266,10 @@
         <option value="$PROJECT_DIR$/v1/v1.js" />
         <option value="$PROJECT_DIR$/auth.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/application/controllers/v1/Users.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/sql/sabeer.sql" />
+        <option value="$PROJECT_DIR$/application/controllers/v1/Users.php" />
         <option value="$PROJECT_DIR$/application/models/REST/UserModel.php" />
       </list>
     </option>
@@ -521,7 +522,7 @@
       <workItem from="1478915390129" duration="8150000" />
       <workItem from="1478925761008" duration="464000" />
       <workItem from="1478926235753" duration="480000" />
-      <workItem from="1478927025491" duration="2414000" />
+      <workItem from="1478927025491" duration="2704000" />
     </task>
     <task id="LOCAL-00001" summary="Check">
       <created>1478875987725</created>
@@ -621,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478929282928</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new update">
+      <created>1478929447418</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1478929447418</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26548000" />
+    <option name="totallyTimeSpent" value="26838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1875" height="1056" extended-state="6" />
@@ -761,16 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/v1/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#7#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/REST/RESTModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -851,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/sql/sabeer.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -867,21 +857,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="132">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="-179">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
           <folding>
-            <marker date="1478929428445" expanded="true" signature="1104:1163" ph="INSERT INTO users... " />
+            <marker date="1478929710496" expanded="true" signature="1119:1178" ph="INSERT INTO users... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/v1/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

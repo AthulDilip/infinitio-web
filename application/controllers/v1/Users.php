@@ -24,6 +24,10 @@ class Users extends CI_Controller {
     public function fblogin() {
         $token = $this->input->post('token');
         $data = $this->UserModel->fbLogin($token);
+
+        $this->load->view('rest', array(
+            'data' => $data
+        ));
     }
 
 }
