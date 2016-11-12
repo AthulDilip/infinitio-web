@@ -77,8 +77,15 @@ $db['default'] = array(
 	'dsn'	=> 'mysql:host=localhost;dbname=inf',
 	'hostname' => 'localhost',
 	'username' => 'root',
+<<<<<<< HEAD
 	'password' => 'root',
 	'database' => 'inf',
+=======
+	//'username' => 'zemose_new',
+	'password' => '',
+	//'password' => 'TrIf]+ESP7t7',
+	'database' => 'zemose_infi',
+>>>>>>> refs/remotes/origin/master
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
