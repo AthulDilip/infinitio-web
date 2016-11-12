@@ -11,7 +11,7 @@ router.use(function(req, res, next){
 
 router.use('/', auth.keyCheck);
 
-router.post('/fblogin/:token', function (req, res) {
+router.get('/fblogin/:token', function (req, res) {
     //contact fb
     var token = req.params.token;
 
