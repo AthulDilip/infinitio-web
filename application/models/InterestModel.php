@@ -43,7 +43,7 @@ class InterestModel extends CI_Model
 
         if(empty($userId)) {
             $data = (object)array(
-                'InfinitioStatus' => (object) array(
+                'IStatus' => (object) array(
                     'StatusCode' => '1D200',
                     'Status' => 'User Id not provided.'
                 ),
@@ -59,7 +59,7 @@ class InterestModel extends CI_Model
         $res = $query->result()[0];
 
         $data = (object)array(
-            'InfinitioStatus' => (object) array(
+            'IStatus' => (object) array(
                 'StatusCode' => '1D100',
                 'Status' => 'Got score successfully'
             ),
@@ -73,5 +73,22 @@ class InterestModel extends CI_Model
         );
 
         return $data;
+    }
+
+    //63f803a8-5fd8-5b12-9997-906dd1373e94
+    public function getLatestNews(){
+
+        $this->load->library('guzzle');
+        $endpoint = 'https://developer.manoramaonline.com/api/editions/en/sections/multimedia/articles';
+
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request(
+            'GET',
+            $endpoint
+        );
+    }
+
+    public function getInterestedNews(){
+
     }
 }
