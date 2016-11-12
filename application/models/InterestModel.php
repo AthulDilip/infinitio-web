@@ -36,5 +36,6 @@ class InterestModel extends CI_Model
 
     public function postScore($userId,$sports,$buisness,$politics,$tech,$entertainment){
         $sql = "UPDATE users SET sports=?,buisness=?,politics=?,tech=?,entertainment=? WHERE id=?";
+        $query = $this->db->query($sql,array($sports,$buisness,$politics,$tech,$entertainment));
     }
 }
