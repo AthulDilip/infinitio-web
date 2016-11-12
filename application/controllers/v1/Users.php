@@ -17,6 +17,8 @@ class Users extends CI_Controller {
     {
         parent::__construct();
 
+        $this->load->database();
+
         $this->load->library('Exceptions');
         $this->load->model('REST/UserModel');
     }
@@ -31,7 +33,22 @@ class Users extends CI_Controller {
             ));
         }
         catch (Exception $e) {
-            $this->exceptions->handleMobileErrors($e);
+            $this->exceptions->parseMobileErrors($e);
+        }
+    }
+
+    public function getPages() {
+        try {
+            $token = $this->input->post('token');
+            $id = $this->input->post('userId');
+            $data = $this->UserModel->getPages($token, $id);
+
+            $this->load->view('rest', array(
+                'data' => $data
+            ));
+        }
+        catch (Exception $e) {
+            $this->exceptions->parseMobileErrors($e);
         }
     }
 

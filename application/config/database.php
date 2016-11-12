@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost;dbname=zemose_infi',
+	'dsn'	=> 'mysql:host=localhost;dbname=inf',
 	'hostname' => 'localhost',
-	'username' => 'zemose_new',
-	'password' => 'TrIf]+ESP7t7',
-	'database' => 'zemose_infi',
+	'username' => 'root',
+	'password' => 'root',
+	'database' => 'inf',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
