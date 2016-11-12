@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3633218-eff9-40bc-a982-203e7bd47168" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" afterPath="$PROJECT_DIR$/application/libraries/google-api/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" afterPath="$PROJECT_DIR$/application/libraries/google-api/.travis.yml" />
@@ -102,8 +102,8 @@
       <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/v1/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="e#7#86#0#PHP" expanded="true" />
               </folding>
@@ -111,11 +111,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+            <state relative-caret-position="286">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <marker date="1478929710496" expanded="true" signature="1119:1178" ph="INSERT INTO users... " />
               </folding>
@@ -126,7 +136,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="550">
               <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
@@ -136,7 +146,7 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="1760">
               <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
               <folding />
             </state>
@@ -153,7 +163,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -166,8 +176,18 @@
       <file leaf-file-name="sabeer.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/sql/sabeer.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -179,80 +199,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/REST/UserRest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="297" column="21" selection-start-line="236" selection-start-column="8" selection-end-line="297" selection-end-column="21" />
-              <folding>
-                <marker date="1478370200029" expanded="true" signature="2532:2609" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="4025:4102" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="6265:6309" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="8358:8398" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="10465:10509" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="11141:11176" ph="select * fro... users" />
-                <marker date="1478370200029" expanded="true" signature="11691:11806" ph="insert into users... " />
-                <marker date="1478370200029" expanded="true" signature="12171:12203" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="13890:13930" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="15524:15559" ph="select * fro... users" />
-                <marker date="1478370200029" expanded="true" signature="16981:17033" ph="select * fro... country" />
-                <marker date="1478370200029" expanded="true" signature="17185:17319" ph="insert into users... " />
-                <marker date="1478370200029" expanded="true" signature="17712:17744" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="18511:18559" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="18885:18946" ph="INSERT INTO users... " />
-                <marker date="1478370200029" expanded="true" signature="19663:19695" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="20276:20311" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="20799:20857" ph="UPDATE users... " />
-                <marker date="1478370200029" expanded="true" signature="21837:21895" ph="INSERT INTO users... " />
-                <marker date="1478370200029" expanded="true" signature="22321:22353" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="23216:23258" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="24613:24643" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="25105:25150" ph="UPDATE users... " />
-                <marker date="1478370200029" expanded="true" signature="25798:25828" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="27063:27097" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="27383:27425" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="28070:28168" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="29225:29264" ph="SELECT * FRO... address" />
-                <marker date="1478370200029" expanded="true" signature="31270:31427" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="31985:32102" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="33147:33194" ph="SELECT * FRO... verification_docs" />
-                <marker date="1478370200029" expanded="true" signature="34244:34291" ph="SELECT * FRO... verification_docs" />
-                <marker date="1478370200029" expanded="true" signature="35134:35195" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="35315:35357" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="35904:35952" ph="SELECT perso... users" />
-                <marker date="1478370200029" expanded="true" signature="36242:36283" ph="SELECT email... users" />
-                <marker date="1478370200029" expanded="true" signature="36764:36819" ph="SELECT * FRO... user_contact_verification" />
-                <marker date="1478370200029" expanded="true" signature="37669:37705" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="38559:38608" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="39461:39564" ph="insert into address... " />
-                <marker date="1478370200029" expanded="true" signature="40215:40249" ph="SELECT * FRO... address" />
-                <marker date="1478370200029" expanded="true" signature="40368:40400" ph="DELETE FROM " />
-                <marker date="1478370200029" expanded="true" signature="41008:41055" ph="SELECT regis... users" />
-                <marker date="1478370200029" expanded="true" signature="41361:41408" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="41785:41824" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="41934:42010" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="42513:42560" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="42941:42980" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="43090:43164" ph="UPDATE `user... " />
-                <marker date="1478370200029" expanded="true" signature="43805:43858" ph="SELECT * FRO... verification_docs" />
-                <marker date="1478370200029" expanded="true" signature="44661:44738" ph="INSERT INTO `verification_docs`... " />
-                <marker date="1478370200029" expanded="true" signature="45909:45983" ph="UPDATE `veri... " />
-                <marker date="1478370200029" expanded="true" signature="46447:46506" ph="UPDATE `veri... " />
-                <marker date="1478370200029" expanded="true" signature="47112:47167" ph="select * fro... users" />
-                <marker date="1478370200029" expanded="true" signature="47425:47472" ph="update users... " />
-                <marker date="1478370200029" expanded="true" signature="47737:47863" ph="update user_... " />
-                <marker date="1478370200029" expanded="true" signature="48640:48772" ph="select * fro... users" />
-                <marker date="1478370200029" expanded="true" signature="49290:49358" ph="update user_... " />
-                <marker date="1478370200029" expanded="true" signature="50174:50270" ph="SELECT * FRO... users" />
-                <marker date="1478370200029" expanded="true" signature="51068:51113" ph="UPDATE users... " />
-                <marker date="1478370200029" expanded="true" signature="51810:51856" ph="select * fro... users" />
-                <marker date="1478370200029" expanded="true" signature="52148:52186" ph="update users... " />
-                <marker date="1478370200029" expanded="true" signature="52489:52615" ph="update user_... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -284,13 +230,13 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/v1/v1.js" />
         <option value="$PROJECT_DIR$/auth.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/sql/sabeer.sql" />
         <option value="$PROJECT_DIR$/application/controllers/v1/Users.php" />
         <option value="$PROJECT_DIR$/application/models/REST/UserModel.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -299,6 +245,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -332,6 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,7 +296,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -370,135 +320,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinitio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinitio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinitio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinitio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinitio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinitio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infinition" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -512,7 +334,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -592,7 +413,9 @@
       <workItem from="1478915390129" duration="8150000" />
       <workItem from="1478925761008" duration="464000" />
       <workItem from="1478926235753" duration="480000" />
-      <workItem from="1478927025491" duration="3105000" />
+      <workItem from="1478927025491" duration="3552000" />
+      <workItem from="1478931288369" duration="62000" />
+      <workItem from="1478931364858" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="Check">
       <created>1478875987725</created>
@@ -720,18 +543,25 @@
       <option name="project" value="LOCAL" />
       <updated>1478930050084</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="initial check">
+      <created>1478930140560</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1478930140560</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27239000" />
+    <option name="totallyTimeSpent" value="27824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1875" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12191104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12520593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -845,141 +675,25 @@
     <entry file="file://$PROJECT_DIR$/lib/requests.js" />
     <entry file="file://$PROJECT_DIR$/config.js" />
     <entry file="file://$PROJECT_DIR$/auth.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/v1/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="72" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/REST/RESTModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/v1/User.php" />
     <entry file="file://$PROJECT_DIR$/application/models/REST/UserRest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
+        <state relative-caret-position="6424">
           <caret line="297" column="21" selection-start-line="236" selection-start-column="8" selection-end-line="297" selection-end-column="21" />
-          <folding>
-            <marker date="1478370200029" expanded="true" signature="2532:2609" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="4025:4102" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="6265:6309" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="8358:8398" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="10465:10509" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="11141:11176" ph="select * fro... users" />
-            <marker date="1478370200029" expanded="true" signature="11691:11806" ph="insert into users... " />
-            <marker date="1478370200029" expanded="true" signature="12171:12203" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="13890:13930" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="15524:15559" ph="select * fro... users" />
-            <marker date="1478370200029" expanded="true" signature="16981:17033" ph="select * fro... country" />
-            <marker date="1478370200029" expanded="true" signature="17185:17319" ph="insert into users... " />
-            <marker date="1478370200029" expanded="true" signature="17712:17744" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="18511:18559" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="18885:18946" ph="INSERT INTO users... " />
-            <marker date="1478370200029" expanded="true" signature="19663:19695" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="20276:20311" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="20799:20857" ph="UPDATE users... " />
-            <marker date="1478370200029" expanded="true" signature="21837:21895" ph="INSERT INTO users... " />
-            <marker date="1478370200029" expanded="true" signature="22321:22353" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="23216:23258" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="24613:24643" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="25105:25150" ph="UPDATE users... " />
-            <marker date="1478370200029" expanded="true" signature="25798:25828" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="27063:27097" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="27383:27425" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="28070:28168" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="29225:29264" ph="SELECT * FRO... address" />
-            <marker date="1478370200029" expanded="true" signature="31270:31427" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="31985:32102" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="33147:33194" ph="SELECT * FRO... verification_docs" />
-            <marker date="1478370200029" expanded="true" signature="34244:34291" ph="SELECT * FRO... verification_docs" />
-            <marker date="1478370200029" expanded="true" signature="35134:35195" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="35315:35357" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="35904:35952" ph="SELECT perso... users" />
-            <marker date="1478370200029" expanded="true" signature="36242:36283" ph="SELECT email... users" />
-            <marker date="1478370200029" expanded="true" signature="36764:36819" ph="SELECT * FRO... user_contact_verification" />
-            <marker date="1478370200029" expanded="true" signature="37669:37705" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="38559:38608" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="39461:39564" ph="insert into address... " />
-            <marker date="1478370200029" expanded="true" signature="40215:40249" ph="SELECT * FRO... address" />
-            <marker date="1478370200029" expanded="true" signature="40368:40400" ph="DELETE FROM " />
-            <marker date="1478370200029" expanded="true" signature="41008:41055" ph="SELECT regis... users" />
-            <marker date="1478370200029" expanded="true" signature="41361:41408" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="41785:41824" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="41934:42010" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="42513:42560" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="42941:42980" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="43090:43164" ph="UPDATE `user... " />
-            <marker date="1478370200029" expanded="true" signature="43805:43858" ph="SELECT * FRO... verification_docs" />
-            <marker date="1478370200029" expanded="true" signature="44661:44738" ph="INSERT INTO `verification_docs`... " />
-            <marker date="1478370200029" expanded="true" signature="45909:45983" ph="UPDATE `veri... " />
-            <marker date="1478370200029" expanded="true" signature="46447:46506" ph="UPDATE `veri... " />
-            <marker date="1478370200029" expanded="true" signature="47112:47167" ph="select * fro... users" />
-            <marker date="1478370200029" expanded="true" signature="47425:47472" ph="update users... " />
-            <marker date="1478370200029" expanded="true" signature="47737:47863" ph="update user_... " />
-            <marker date="1478370200029" expanded="true" signature="48640:48772" ph="select * fro... users" />
-            <marker date="1478370200029" expanded="true" signature="49290:49358" ph="update user_... " />
-            <marker date="1478370200029" expanded="true" signature="50174:50270" ph="SELECT * FRO... users" />
-            <marker date="1478370200029" expanded="true" signature="51068:51113" ph="UPDATE users... " />
-            <marker date="1478370200029" expanded="true" signature="51810:51856" ph="select * fro... users" />
-            <marker date="1478370200029" expanded="true" signature="52148:52186" ph="update users... " />
-            <marker date="1478370200029" expanded="true" signature="52489:52615" ph="update user_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/sql/sabeer.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="550">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding>
-            <marker date="1478929710496" expanded="true" signature="1119:1178" ph="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/v1/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="1760">
           <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
           <folding />
         </state>
@@ -993,10 +707,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/REST/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1478929710496" expanded="true" signature="1119:1178" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/v1/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#7#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/REST/RESTModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/sql/sabeer.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
