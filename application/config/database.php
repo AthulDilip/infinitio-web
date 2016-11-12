@@ -76,8 +76,10 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> 'mysql:host=localhost;dbname=zemose_infi',
 	'hostname' => 'localhost',
-	'username' => 'zemose_new',
-	'password' => 'TrIf]+ESP7t7',
+	'username' => 'root',
+	//'username' => 'zemose_new',
+	'password' => '',
+	//'password' => 'TrIf]+ESP7t7',
 	'database' => 'zemose_infi',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
